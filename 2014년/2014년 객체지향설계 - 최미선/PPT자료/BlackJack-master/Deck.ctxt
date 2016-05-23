@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ fill()
+comment0.text=\r\n\ Fill\ the\ deck\ with\ a\ complete\ set\ of\ cards.\ Get\ rid\ of\ any\ cards\r\n\ still\ in\ the\ deck.\r\n
+comment1.params=
+comment1.target=void\ shuffle()
+comment1.text=\r\n\ Shuffle\ the\ deck\r\n
+comment2.params=
+comment2.target=void\ setColour()
+comment2.text=\r\n\ Set\ the\ deck\ to\ a\ certain\ colour\r\n
+comment3.params=
+comment3.target=int\ getSize()
+comment3.text=\r\n\ Get\ the\ size\ of\ the\ deck\r\n\ @return\ the\ number\ of\ cards\ left\ in\ the\ deck\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ Deck\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5

@@ -1,0 +1,119 @@
+header{
+	font-size : 20px;
+	text-align : center;
+}
+html{
+	margin :auto;
+}
+body{
+	background-color : #EFE4B0;
+	font-family:Lucida Console;
+}
+section{
+	text-align : center;
+	margin :3%;
+}
+iframe{
+	margin : auto;
+}
+#text1
+{
+	font-family:Lucida Console;
+}
+#frame{
+	width : 55%;
+	height : 100%;
+	margin :0;
+	display : inline-block;
+	float : left;
+}
+#playSection{
+	border : 3px solid black;
+	width : 90%;
+	height : 330px;
+	background-color:#CC0000;
+}
+#Subject{
+	border : 3px solid black;
+	width : 90%;
+	height : 50px;
+	font-size : 25px;
+	background-color:#CC0000;
+}
+#Subject p{
+	margin:10px;
+	color:#E6B800;
+}
+#TheList{
+	border : 3px solid black;
+	width : 40%;
+	display : inline-block;
+	margin : 20px;
+	margin-left : 30px;
+	background-color:#CC0000;
+}
+#logout{
+	text-align : center;
+}
+#trash{
+	text-align : center;
+	width : 100px;
+	height : 100px;
+}
+#VideoInfo{
+	border : 3px solid black;
+	padding : 5px;
+	margin : 10px;
+	display : none;
+	background-color:#7A7A52;
+}
+#LoadList{
+	padding : 5px;
+}
+#LoadList h1{
+	font-size : 30px;
+	margin : 0;
+	color:#E6B800;
+	font-weight: bold;
+}
+#ListSection{
+	display : none;
+}
+#ListSection li {
+	font-size : 20px;
+	color: #CCFF33;
+	padding: 3px;
+	font-family:Courier New;
+	font-weight: bold;
+}
+#saveBu{
+	display : none;
+	margin : auto;
+}
+#saveList{
+	display:none;
+}
+#SelectList{
+	display:none;
+}
+li {
+     list-style-type:none;
+}
+footer{
+    clear:both;
+    padding:5px;
+	text-align: center;
+	font-style: Italic;
+}
+.span{
+	font-size : 20px;
+	color:#A3D119;
+	font-weight: bold;
+}
+#MyLists{
+	font-size : 20px;
+	color: #CCFF33;
+	padding: 3px;
+	font-family:Courier New;
+	font-weight: bold;
+}

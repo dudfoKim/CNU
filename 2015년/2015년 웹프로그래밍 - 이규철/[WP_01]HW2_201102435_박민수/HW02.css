@@ -1,0 +1,101 @@
+#BookList{
+		float:left;
+		width : 48%;
+		height: 800px;
+		border:solid 1px;
+		margin-bottom: 10px;
+		margin-left : 10px;
+}
+
+table{
+	width : 650px;
+	height: 500px;	
+}
+thead{
+	text-align : center;
+}
+
+h1 {
+	text-align : center;
+}
+.pic {
+	width:50px;
+	text-align : center;
+}
+.bookname{
+	text-align : center;
+	width:100px;
+}
+.price {
+	text-align : center;
+	width:50px;
+}
+#volumes{
+	text-align : left;
+}
+.inputVol{
+	width:50px;
+	text-align: center;
+}
+body {
+	margin:auto;
+}
+#priceAccunt{
+	border:solid 1px;
+	width : 48%;
+	height: 800px;
+	float:right;
+	margin-right : 10px;
+}
+#buylist{
+	height : 300px;
+	margin-left: 50px;
+	
+}
+#buyhead{
+	font-size: 25px;
+	
+}
+#buylist1 {
+	font-size: 10px;
+}
+#deliveryCost{
+	height : 100px;
+	margin-left: 50px;
+}
+#deliveryhead{
+	font-size: 25px;
+}
+#Total_Cost{
+	height : 100px;
+	margin-left: 50px;
+}
+#Costhead{
+	font-size: 25px;
+}
+
+
+#Destination{
+	width : 98.5%;
+	height: 300px;
+	border:solid 1px;
+	float:left;
+	margin-left: 10px;
+}
+button {
+	margin-left : 45%;
+}
+#cunsumer {
+	margin-left : 30%;
+}
+#DesAddress {
+	margin-left : 30%;
+}
+#Card {
+	margin-left : 30%;
+}
+#cardNum {
+	margin-left : 30%;
+}
+
+

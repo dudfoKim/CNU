@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Table()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Table.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ dealerHand()
+comment2.params=
+comment2.target=void\ endGame()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ If\ the\ deck\ is\ clicked\ on,\ then\ draw\ a\ card\ from\ it\ (unless\ it's\ empty.)\r\n
+numComments=4

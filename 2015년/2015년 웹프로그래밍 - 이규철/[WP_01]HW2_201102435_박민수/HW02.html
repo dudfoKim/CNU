@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="HW02.css"/>
+		<script type='text/javascript' src='HW02.js'></script>
+	</head>
+	<body>
+		<h1>MS BookStore</h1>
+		<section id = "BookList">
+			<h1>BookList</h1>
+			<table id = "listT">
+				<thead>
+					<tr>
+						<th class = "pic">Book Image</th>
+						<th class = "bookname">Book Name</th>
+						<th class = "price">Cost</th>
+						<th class = "inputVol">Volume</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td class = "pic"><input type="checkbox" id = "book1" onclick="checkTotalCost()"> <img src="os.jpg"></td>
+					<td class = "bookname" id ="bookname1">운영체제</td>
+					<td class = "price" id = "book1Price">5000</td>
+					<td class = "inputVol"><input type="number" id ="inputbook1" min="1" max="5" onclick="checkTotalCost()"></td>
+				</tr>
+				<tr>
+					<td class = "pic"><input type="checkbox" id = "book2" onclick="checkTotalCost()"> <img src="wp.jpg"></td>
+					<td class = "bookname" id ="bookname2">웹프로그래밍</td>
+					<td class = "price" id = "book2Price">9000</td>
+					<td class = "inputVol"><input type="number" id ="inputbook2" min="1" max="5" onclick="checkTotalCost()"></td>
+				</tr>
+				<tr>
+					<td class = "pic"><input type="checkbox" id = "book3" onclick="checkTotalCost()"><img src="ds.jpg"></td>
+					<td class = "bookname" id ="bookname3"> 자료구조</td>
+					<td class = "price" id = "book3Price">15000</td>
+					<td class = "inputVol"><input type="number" id ="inputbook3" min="1" max="5" onclick="checkTotalCost()"></td>
+				</tr>
+				<tr>
+					<td class = "pic"><input type="checkbox" id = "book4" onclick="checkTotalCost()"><img src="sh.jpg"></td>
+					<td class = "bookname" id ="bookname4"> 수치해석</td>
+					<td class = "price" id = "book4Price">11000</td>
+					<td class = "inputVol"><input type="number" id ="inputbook4" min="1" max="5" onclick="checkTotalCost()"></td>
+				</tr>
+				<tr>
+					<td class = "pic"><input type="checkbox" id = "book5" onclick="checkTotalCost()"><img src="cs.jpg"></td>
+					<td class = "bookname" id ="bookname5"> 컴퓨터구조</td>
+					<td class = "price" id = "book5Price">8000</td>
+					<td class = "inputVol"><input type="number" id ="inputbook5" min="1" max="5" onclick="checkTotalCost()"></td>
+				</tr>
+				<tr>
+					<td class = "pic"><input type="checkbox" id = "book6" onclick="checkTotalCost()"><img src="mj.jpg"></td>
+					<td class = "bookname" id ="bookname6"> 미분적분학</td>
+					<td class = "price" id = "book6Price">6000</td>
+					<td class = "inputVol"><input type="number" id ="inputbook6" min="1" max="5" onclick="checkTotalCost()"></td>
+				</tr>
+				<tbody>
+				
+			</table>
+		</section>
+		<section id ="priceAccunt">
+			
+			<section id="buylist"><p id = "buyhead">Purchase List : <p>
+				<p id="buyList1"></p>
+				<p id="buyList2"></p>
+				<p id="buyList3"></p>
+				<p id="buyList4"></p>
+				<p id="buyList5"></p>
+				<p id="buyList6"></p>
+			</section>
+			<section id="deliveryCost">
+			<p id = "deliveryhead">Delivery Cost : </p><p id="delivery"></p>
+			</section>
+			<section id="Total_Cost">
+			<p id = "Costhead">Total Cost : </p><p id ="totalCost" value ="checkTotalCost()"></p>
+			</section>
+		</section>
+		<section id ="Destination">
+			<h1>Destination Information</h1>
+			<p id = "cunsumer">Cunsumer Name   <input type="text" id="cunsumerName"></p>
+			<p id = "DesAddress">Destination Address  <input type="text" id="Address" size = "50"></p>
+			<p id = "Card">Card Corporation
+					<select id = "CardSelect">
+						<option selected>=== 카드사선택 ===</option>
+						<option> 신한은행</option>
+						<option> 하나은행</option>
+						<option> 국민은행</option>
+						<option> 농협</option>
+					</select></p>
+			<p id ="cardNum">Credit Card Number   <input type="text" id="cardNumTB" placeholder="0000-0000-0000-0000" ></p>
+			<button type="button" onclick="chekSubmit() " >결재하기</button>
+		</section>
+	</body>
+</html>

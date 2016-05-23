@@ -1,0 +1,60 @@
+header
+{
+	height:170px;
+	text-align:center;
+	margin-top:-15px;
+}
+header span
+{
+	font-size:40px;
+}
+#menu
+{
+	width:100%;
+	height:50px;
+}
+
+img {
+	width : 100px;
+	height : 100px;
+}
+
+#box
+{
+	height:100px;
+}
+content
+{
+	width:100%;
+	height:500px;
+	float:left;
+}
+#TimeTable
+{
+	border-collapse:collapse;
+	margin:auto;
+	text-align:center;
+	border : 1px solid;
+}
+#TimeTable th,td
+{
+	height:30px;
+	width:100px;
+	border : 1px solid;
+}
+#TimeTable caption
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+thead {
+	background-color : #008B8B;
+}
+.time {
+	font-weight : bold;
+	background-color : #008B8B;
+}
+input {
+	
+	font-size : 15px;
+}

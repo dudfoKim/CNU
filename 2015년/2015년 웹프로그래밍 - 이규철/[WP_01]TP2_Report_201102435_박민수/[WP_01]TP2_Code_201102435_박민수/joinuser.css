@@ -1,0 +1,14 @@
+header{
+	font-size : 20px;
+	text-align : center;
+}
+body{
+	text-align : center;
+	background-color : #EFE4B0;
+}
+footer{
+    clear:both;
+    padding:5px;
+	text-align: center;
+	font-style: Italic;
+}

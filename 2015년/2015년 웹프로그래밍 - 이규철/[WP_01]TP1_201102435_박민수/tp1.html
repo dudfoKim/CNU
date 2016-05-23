@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset = "utf-8"/>
+	<link type = "text/css" rel = "stylesheet" href = "tp1.css"/>
+	<script type='text/javascript' src="tp1.js"></script>
+	<title> Term Project #1 </title>
+</head>
+
+<body>
+<!-- WritingForm-->
+	<div id ="WirtingForm">
+		<div id="writingHead">
+			제목<input id ="subject" type = "text" style = "width:330px"><br>
+		</div>
+		
+		<div id="writingtextArea">
+			<textarea id="textarea"rows ="10" cols = "50" id="subject"></textarea>
+		</div>
+		<div id="writingImage">
+			<img id="image" src="" alt="">
+			<input id="inputimage" type = "file" onchange="fileSelected()" multiple/>
+			
+		</div>
+		<div id="writingButton">
+			<input id="submitButton" type = "button" value = "등록" onclick="submit()" />
+			<input id="closeButton" type = "button" value = "닫기"onclick="closeContents()" />
+		</div>		
+	</div>
+	<header id = "header">
+		<h1 id = "h_Font"> Minsoo's Blog</h1>
+	</header>
+			<!-- Middle Bar -->
+	<nav id = "middleBar" >
+		<p onmouseover = "showMenu()" onmouseout = "hideMenu()"> Middle Bar </p>
+		<div id="hiddenMenu" onmouseover = "showMenu()" onmouseout = "hideMenu()">
+			<div id = "addition" onclick="addContents()"><p class="menuFont">추가</p></div>
+			<div id = "IndexAdd" onclick="IndexAdd()"><p class="menuFont">Index 지정 추가</p></div>
+		</div>	
+	</nav>
+	
+			<!-- Side Bar와 Content 감싸는 wrapper -->
+	<div id = "contentWrapper">
+	
+		<!-- Side Bar -->
+		<nav id = "sideBar">
+	
+			
+		</nav>
+	
+		<!-- Content 글이나 이미지 들어가는 부분-->
+		<section id = "content">
+			
+		</section>
+	</div>
+
+	
+	
+</body>
