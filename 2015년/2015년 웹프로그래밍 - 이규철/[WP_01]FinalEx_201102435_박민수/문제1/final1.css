@@ -1,0 +1,17 @@
+#a{
+	display:none;
+}
+#main{
+	float:left;
+}
+#List{
+	float:left;
+	width:20%;
+	height:100%;
+	display:inline-block;
+}
+#googleMap{
+	width:50%;
+	height:100%;
+	display:inline-block;
+}

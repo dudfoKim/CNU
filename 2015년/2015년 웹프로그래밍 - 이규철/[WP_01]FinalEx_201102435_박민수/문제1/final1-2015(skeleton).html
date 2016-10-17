@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type = "text/css" rel = "stylesheet"href="final1.css" >
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript"src='final1.js' ></script>
+	<title> 2015 웹 프로그래밍 기말고사 1번 문제 : skeleton</title>
+</head>
+<body>
+		<div id ="main">
+		<button onclick ="Add()">지역 추가</button>
+		<button onclick ="Delete()">지역 삭제</button>
+		<button onclick ="showAll()">모두 보기</button>
+		</div><br>
+		<div id ="a">
+		<h2>지역 정보 입력</h2>
+			위도 : <input type="number" id ="we">  <br>
+			경도 : <input type="number" id ="kyung"> <br>
+			제목 : <input type="text" id ="subject"> <br> 
+			<button onclick = "Submit()">제출</button>
+			<button onclick = "Close()">닫기</button>
+		</div>
+		
+		<ol id = "List">
+		</ol>
+		
+		<div id = "googleMap">
+		</div>
+</html>
